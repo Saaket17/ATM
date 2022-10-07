@@ -1,0 +1,39 @@
+package atm1;
+
+public class MaintainCustomer {
+		public int accno;
+		public int pin;
+		public int bal;
+		public String accname;
+	 public Maintain() {
+		 
+	 }
+	public int getaccNo() {
+		return accno;
+	}
+	public void setaccNo(int accno) {
+		this.accno = accno;
+	}
+	public int getPin() {
+		return pin;
+	}
+	public void setPin(int pin) {
+		this.pin = pin;
+	}
+	public int getBal() {
+		return bal;
+	}
+	public void setBal(int bal) {
+		this.bal = bal;
+	}
+	public String getaccName() {
+		return accname;
+	}
+	public void setaccName(String accname) {
+		this.accname = accname;
+	}
+}
+	
+	
+
+

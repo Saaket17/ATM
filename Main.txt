@@ -1,0 +1,43 @@
+package atm1;
+
+public class Main {
+
+	public static void main(String[] args) {
+	Atm a=new Atm();
+	MaintainCustomer m=new MaintainCustomer();
+	GFG g=new GFG();
+	a.setTwothousand(20);
+	a.setTwothousand(100);
+	a.setTwothousand(100);
+	a.getTwothousand();
+	a.getFivehundred();
+	a.getHundread();
+	m.setaccNo(101);
+	m.setaccName("Suresh");
+	m.setPin(2343);
+	m.setBal(25234);
+	
+	m.setaccNo(102);
+	m.setaccName("Ganesh");
+	m.setPin(5432);
+	m.setBal(34123);
+	
+	m.setaccNo(103);
+	m.setaccName("Mahesh");
+	m.setPin(7854);
+	m.setBal(26100);
+	
+	m.setaccNo(104);
+	m.setaccName("Naresh");
+	m.setPin(2345);
+	m.setBal(80000);
+	
+	m.setaccNo(105);
+	m.setaccName("Harish");
+	m.setPin(1907);
+	m.setBal(103400);
+	
+
+	}
+
+}

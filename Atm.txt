@@ -1,0 +1,52 @@
+package atm1;
+
+public class Atm {
+	public int twothousand;
+	public int fivehundred;
+	public int hundread;
+	public int twothousand=2000;
+	public int fivehundred=500;
+	public int hundread=100;
+	public int getTwothousand() {
+		return twothousand;
+	}
+	public void setTwothousand(int twothousand() {
+		this.twothousand = twothousand;
+	}
+	public int getFivehundred() {
+		return fivehundred;
+	}
+	public void setFivehundred(int fivehundredcount) {
+		this.fivehundred = fivehundred;
+	}
+	public int getHundred() {
+		return hundread;
+	}
+	public void setHundred(int hundredcount) {
+		this.hundred = hundred;
+	}
+	public int getTwothousand() {
+		return twothousand*twothousand;
+	}
+	public void setTwothousand(int twothousand) {
+		this.twothousand = twothousand;
+	}
+	public int getFivehundred() {
+		return fivehundred*fivehundread;
+	}
+	public void setFivehundred(int fivehundred) {
+		this.fivehundred = fivehundred;
+	}
+	public int getHundred() {
+		return hundred*hundred;
+	}
+	public void setHundred(int hundred) {
+		this.hundred = hundred;
+	}
+	
+	
+	
+		
+	
+
+}

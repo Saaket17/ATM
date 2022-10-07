@@ -1,0 +1,41 @@
+package atm1;
+
+import java.io.*;
+public class Cash {
+    public static void displayBalance(int balance)
+    {
+        System.out.println("Current Balance : " + balance);
+        System.out.println();
+    }
+    public static int amountWithdrawing(int balance,
+                                        int withdrawAmount)
+    {
+        System.out.println("Withdrawn Operation:");
+        System.out.println("Withdrawing Amount : "
+                           + withdrawAmount);
+        if (balance >= withdrawAmount) {
+            balance = balance - withdrawAmount;
+            System.out.println(
+                "Please collect your money and remove card");
+            displayBalance(balance);
+        }
+        else {
+            System.out.println("Insufficient Funds");
+            System.out.println();
+        }
+        return balance;
+    }
+    public static int amountDepositing(int balance,
+                                       int depositAmount)
+    {
+        System.out.println("Deposit Operation:");
+        System.out.println("Depositing Amount : "
+                           + depositAmount);
+        balance = balance + depositAmount;
+        System.out.println(
+            "Your Money has been successfully deposited");
+        displayBalance(balance);
+        return balance;
+    }
+  
+}
